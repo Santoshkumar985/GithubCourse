@@ -82,7 +82,8 @@ public class TestPage extends TestBase {
 	public void checkout()
 	{
 		signin=checkout2.clickonRegister();
-		signin.validateHomePageTitle();
+		String title=signin.validateHomePageTitle();
+		System.out.println("title");
 		
 	}
 	

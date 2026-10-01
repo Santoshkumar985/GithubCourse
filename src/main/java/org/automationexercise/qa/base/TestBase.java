@@ -89,6 +89,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		
 		driver.get(prop.getProperty("url"));
+		System.out.println("Hello world");
 		
 	
 		return driver;
